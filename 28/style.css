@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('image/wakayama.png');
+    background-repeat: repeat;
+    background-size: 320px;
+}
+.sidebar{
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 18%;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: rgb(240, 240, 255);
+    border-right: solid 5px #dcf;
+}
+nav a{
+    color: #000044;
+}
+a:hover{
+    background-color: #5cf5cf;
+}
+li{
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-left: 18%;
+    width: 80%;
+    box-sizing: border-box;
+}
+.midasi{
+    margin-top: 45px;
+    margin-left: 20%;
+    text-align: center;
+}
+.image{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    margin-left: 18%;
+    width: 80%;
+    box-sizing: border-box;
+}
+.image h2{
+    margin-left: 38%;
+}
+.image h1{
+    margin-left: 40px;
+}
+.image img{
+    height: 450px;
+    width: 45%;
+    margin: 20px;
+}
+.content{
+    color: #333333;
+    padding: 10px;
+    height: 50%;
+    width: 30%;
+    margin: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-sizing: border-box;
+}

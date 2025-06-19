@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: #068ccf;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    background-color: #0d92d4;
+    color: #FFFFFF;
+    text-decoration-line: none;
+    border-radius: 5;
+    margin: 5px;
+    padding: 5px;
+}
+
+nav a a:hover{
+    background-color: #0099FF;
+    color: #000000;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.ore{
+    width: 400px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.ore img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sub{
+    width: 60%;
+    right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.syumidiv{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.syumidiv a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.tokugidiv{
+    background-color: rgb(134, 250, 157);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.tokugidiv a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.otomodiv{
+    background-color: rgb(235, 105, 86);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.otomodiv a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.mokuhyodiv{
+    background-color: rgb(249, 225, 101);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.mokuhyodiv a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.kazoku{
+    background-color: rgb(229, 168, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.kazoku a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.syousai{
+    background-color: rgb(126, 126, 126);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.syousai a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.syumimain{
+    width: 100%;
+    background-image: url(image/GpTmYcQbYAUIqet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.koumokumoji{
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+.kazokumain{
+    width: 100%;
+    background-image: url(image/Image\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tokugimain{
+    width: 100%;
+    background-image: url(image/tokugi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ongakumain{
+    width: 100%;
+    background-image: url(image/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.otomomain{
+    width: 100%;
+    background-image: url(image/スクリーンショット\ 2025-06-18\ 105830.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mokuhyomain{
+    width: 100%;
+    background-image: url(image/o0775060412335964846.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    box-sizing: border-box;
+}
+
+
+
